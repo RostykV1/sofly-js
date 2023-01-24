@@ -1,4 +1,5 @@
-console.warn("SOFLY CODES INICIATED")
+console.log("SOFLY CODES API INICIATED")
+console.log("thf ~ sofly.#9700")
 
 export default class sofly_codes{
     scrollHorizontal(element){
@@ -56,5 +57,14 @@ export default class sofly_codes{
     warn(text){
         console.warn(text)
         return;
+    }
+    help(){
+        console.log("~~~~~~~SOFLY CODES API HELP~~~~~~~")
+
+        console.log("scrollHorizontal(element data)")
+        console.log("typeWrite(text, speed, innerElement)")
+        console.log("progressBlocks(progress_ - UNDER 100, elements - LI, element - UL)")
+
+        console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     }
 }
